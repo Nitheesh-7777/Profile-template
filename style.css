@@ -24,13 +24,14 @@ body{
   box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
 }
 .container .wrapper img{
+  background-color: whitesmoke;
   position: relative;
   z-index: 20;
   border-radius: 50%;
   display: block;
   height: 200px;
   width: 200px;
-  border: 5px solid #fff;
+  border: 0px solid #fff;
   object-fit: cover;
   margin: 20px auto;
   transition: all 0.3s ease;
@@ -69,6 +70,14 @@ body{
   width: 150px;
   margin: 0 5px;
 }
+.buttons .btn2 i
+{
+   color: #0762C8;
+}
+.buttons .btn1 i
+{
+   color: #25D366;
+}
 .buttons .btn button{
   height: 100%;
   width: 100%;
@@ -89,6 +98,22 @@ body{
   margin-top: -435px;
   margin-left: 10px;
   list-style: none;
+}
+.icons .facebook
+{
+    color: #3b5998;
+}
+.icons .twitter
+{
+    color: #1DA1F2;
+}
+.icons .instagram
+{
+color: #f09433; 
+color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 .container .icons.active{
   display: none;
@@ -124,8 +149,11 @@ body{
 .container .icons li a:hover{
   transform: scale(0.9);
 }
-
+.container .icons img
+{
+    padding-top: 8px;
+}
 @media screen and (max-width: 1050px)
 {
-    
+
 }
